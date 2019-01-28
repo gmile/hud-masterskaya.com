@@ -1,0 +1,81 @@
+painting:
+  top-images:
+    - img/painting-top-1.jpg
+    - img/painting-top-2.jpg
+    - img/painting-top-3.jpg
+    - img/painting-top-4.jpg
+    - img/painting-top-5.jpg
+  bottom-images:
+    - img/painting-bottom-1.jpg
+    - img/painting-bottom-2.jpg
+    - img/painting-bottom-3.jpg
+    - img/painting-bottom-4.jpg
+    - img/painting-bottom-5.jpg
+    - img/painting-bottom-6.jpg
+    - img/painting-bottom-7.jpg
+    - img/painting-bottom-8.jpg
+    - img/painting-bottom-10.jpg
+bas-relief:
+  top-images:
+    - img/bas-relief-top-1.jpg
+    - img/bas-relief-top-2.JPG
+    - img/bas-relief-top-3.JPG
+    - img/bas-relief-top-4.JPG
+    - img/bas-relief-top-5.jpg
+  bottom-images:
+    - img/bas-relief-bottom-1.jpg
+    - img/bas-relief-bottom-2.jpg
+    - img/bas-relief-bottom-3.jpg
+    - img/bas-relief-bottom-4.jpg
+    - img/bas-relief-bottom-5.jpg
+    - img/bas-relief-bottom-6.jpg
+    - img/bas-relief-bottom-7.jpg
+    - img/bas-relief-bottom-8.jpg
+    - img/bas-relief-bottom-9.jpg
+    - img/bas-relief-bottom-10.jpg
+    - img/bas-relief-bottom-11.jpg
+    - img/bas-relief-bottom-12.jpg
+    - img/bas-relief-bottom-13.jpg
+    - img/bas-relief-bottom-14.jpg
+acrylic:
+  top-images:
+    - img/fluid-top-1.jpg
+    - img/fluid-top-2.jpg
+    - img/fluid-top-3.jpg
+    - img/fluid-top-4.jpg
+    - img/fluid-top-5.jpg
+  bottom-images:
+    - img/fluid-bottom-1.JPG
+    - img/fluid-bottom-2.JPG
+    - img/fluid-bottom-3.JPG
+    - img/fluid-bottom-4.JPG
+    - img/fluid-bottom-5.JPG
+    - img/fluid-bottom-6.JPG
+    - img/fluid-bottom-7.JPG
+    - img/fluid-bottom-8.JPG
+    - img/fluid-bottom-9.PNG
+corporate:
+  top-images:
+    - img/corporate-top-1.JPG
+    - img/corporate-top-2.JPG
+    - img/corporate-top-3.JPG
+    - img/corporate-top-4.JPG
+    - img/corporate-top-5.jpg
+  bottom-images:
+    - img/corporate-bottom-1.jpg
+    - img/corporate-bottom-10.JPG
+    - img/corporate-bottom-11.JPG
+    - img/corporate-bottom-12.JPG
+    - img/corporate-bottom-13.JPG
+    - img/corporate-bottom-14.JPG
+    - img/corporate-bottom-15.JPG
+    - img/corporate-bottom-16.JPG
+    - img/corporate-bottom-17.jpg
+    - img/corporate-bottom-2.jpg
+    - img/corporate-bottom-3.jpg
+    - img/corporate-bottom-4.jpg
+    - img/corporate-bottom-5.jpg
+    - img/corporate-bottom-6.jpg
+    - img/corporate-bottom-7.JPG
+    - img/corporate-bottom-8.JPG
+    - img/corporate-bottom-9.JPG

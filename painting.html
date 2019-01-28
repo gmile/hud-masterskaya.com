@@ -1,0 +1,55 @@
+---
+layout: default
+title: Painting
+---
+{% assign top-images = site.data.ms.painting.top-images %}
+{% assign bottom-images = site.data.ms.painting.bottom-images %}
+
+<div class="yo">
+<h1 style>Painting</h1>
+<h2>painting TODO!</h2>
+<p>
+  TODO paragraph1
+<p>
+  TODO paragraph2
+</p>
+
+<div class="highlights">
+  <p><span style="font-size: 2em">🤷</span><br>без знаний<br>и опыта</p>
+  <p class=""><span style="font-size: 2em">👛</span><br>850 грн.</p>
+  <p class=""><span style="font-size: 2em">⏳</span><br>2 часа</p>
+  <p class=""><span style="font-size: 2em">🎨</span><br>материалы включены</p>
+</div>
+
+<div id="img-up">
+  {% for top-image in top-images %}
+    <a href="#"><img src="{{ top-image }}" /></a>
+  {% endfor %}
+</div>
+
+<p>
+  TODO paragraph3
+<p>
+  TODO paragraph4
+</p>
+
+<div id="img-bottom">
+  {% for bottom-image in bottom-images %}
+    <a href="#"><img src="{{ bottom-image }}" /></a>
+  {% endfor %}
+</div>
+
+<script>
+  $("#img-up").justifiedGallery({rowHeight: 300});
+  $("#img-bottom").justifiedGallery({rowHeight: 300});
+</script>
+
+<style>
+  .highlights {
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold
+  }
+  .highlights p { width: 25%; text-align: center }
+</style>

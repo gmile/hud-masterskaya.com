@@ -2,9 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134180029-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-134180029-1');
+    </script>
+
+    <style>
+      body {
+        font-family: 'Noto Serif SC', serif;
+        width: 1024px;
+        margin: auto;
+        padding-bottom: 10em
+      }
+
+      h1 { text-align: center; font-size: 3em }
+      p.menu { text-align: center; font-size: 1.5em }
+      p.menu a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        border-bottom: 5px;
+        border-color: #FFF;
+        border-bottom-style: solid
+      }
+      p.menu a:hover {
+        border-color: yellow;
+      }
+      p.menu span { padding: 0 0.5em }
+
+      #video { margin: auto }
+      #video.iframe { display: block; margin: auto; }
+
+      #out-painters { text-align: center }
+      .painter { display: inline-block; text-align: center }
+
+      h2, h3 { text-align: center }
+      #masterclasses .ms-class {
+        color: white;
+        background-size: cover;
+        display: block;
+        width: 1024px;
+        height: 576px;
+        text-align: center;
+        font-size: 6em;
+        font-weight: bold;
+        line-height: 576px; /* same as height! */
+      }
+      #masterclasses .ms-class:hover {
+        cursor: pointer;
+        color: #EEE;
+        opacity: 0.95;
+      }
+      #masterclasses .ms-main-painting { background-image: url(img/main-painting.jpg);}
+      #masterclasses .ms-main-bas-relief { background-image: url(img/main-bas-relief.jpg);}
+      #masterclasses .ms-main-acrylic { background-image: url(img/main-acrylic.jpg);}
+
+      .ms-main-painting + .ms-main-painting { margin-top: 1pt }
+    </style>
     <title>{{ page.title }}</title>
   </head>
   <body>
     {{ content }}
+    <p style="text-align: center; margin-top: 3em">
+      "Худ. Мастерская", 2019
+    </p>
   </body>
 </html>

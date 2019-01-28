@@ -1,0 +1,56 @@
+---
+layout: default
+title: Корпоративный мастер-класс!
+---
+{% assign top-images = site.data.ms.corporate.top-images %}
+{% assign bottom-images = site.data.ms.corporate.bottom-images %}
+
+<div class="yo">
+<h1 style>Корпоративный мастер-класс</h1>
+<h2>Art party создаст настроение,<br>незабываемый девичник или корпоративный мастер-класс!</h2>
+<p>
+  Как интересно отдохнуть с коллегами? Так, как вы еще этого не делали! ;)
+<p>
+  Art-party – лучший вариант для корпоративного мастер-класса или тимбилдинга.
+</p>
+
+<div class="highlights">
+  <p><span style="font-size: 2em">🤷</span><br>без знаний<br>и опыта</p>
+  <p class=""><span style="font-size: 2em">👛</span><br>от 1000 грн.</p>
+  <p class=""><span style="font-size: 2em">⏳</span><br>2-3 часа</p>
+  <p class=""><span style="font-size: 2em">🎨</span><br>материалы включены</p>
+</div>
+
+<div id="img-up">
+  {% for top-image in top-images %}
+    <a href="#"><img src="{{ top-image }}" /></a>
+  {% endfor %}
+</div>
+
+<p>
+  В совместном творчестве каждый может обнаружить в себе художника, а команда – проявить сплоченность и креативность.
+</p>
+<p>
+  Мастер-класс можно проводить в офисе, ресторане, загородном комплексе. Участников может быть сколько угодно.
+</p>
+
+<div id="img-bottom">
+  {% for bottom-image in bottom-images %}
+    <a href="#"><img src="{{ bottom-image }}" /></a>
+  {% endfor %}
+</div>
+
+<script>
+  $("#img-up").justifiedGallery({rowHeight: 300});
+  $("#img-bottom").justifiedGallery({rowHeight: 300});
+</script>
+
+<style>
+  .highlights { 
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold
+  }
+  .highlights p { width: 25%; text-align: center }
+</style>
