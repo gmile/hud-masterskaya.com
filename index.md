@@ -81,5 +81,9 @@ title: Home
 
 <div id="contacts" style="padding-top: 2em">
   <h2>Контакты</h2>
+  <p class="menu">
+  <a href="https://www.facebook.com/hud.masterskaya"><i class="fab fa-facebook"> hud.masterskaya</i></a><span class="dot">·</span><a href="https://www.instagram.com/hud.masterskaya/"><i class="fab fa-instagram"> hud.masterskaya</i></a><span class="dot">·</span><a href="tel:+380676850235"><i class="fas fa-phone"> +380 67 6850235</i></a>
+  </p>
+
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.8830619758999!2d30.43763968158482!3d50.464079679582845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x918430a76842d60!2z0JbQmiAiR29sZGVuIFBhcmsi!5e0!3m2!1sen!2sua!4v1548710047119" width="1024" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
