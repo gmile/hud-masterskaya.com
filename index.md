@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<h1>Masterskaya</h1>
+<h1>Худ. мастерская</h1>
 <p class="menu">
   <a href="#masterclasses">мастер-классы</a><span class="dot">·</span><a href="#rsvp">забронировать</a><span class="dot">·</span><a href="#gift-certificates">подарочные сертификаты</a><span class="dot">·</span><a href="#contacts">контакты</a>
 </p>
