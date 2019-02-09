@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700&subset=cyrillic-ext');
+    </style>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134180029-1"></script>
     <script>
@@ -23,13 +27,20 @@
 
     <style>
       body {
-        font-family: 'Noto Serif SC', serif;
+        font-family: 'Noto Serif', serif;
         width: 1024px;
         margin: auto;
         padding-bottom: 10em
       }
+      h1, h2, h3, h4, h5, h6 { font-weight: 400 }
+      h2 { font-size: 24pt }
+      h3 { font-size: 18pt }
 
-      h1 { text-align: center; font-size: 3em }
+      h1 {
+        text-align: center;
+        font-size: 3em
+      }
+      h3 { font-weight: 400 }
       p.menu { text-align: center; font-size: 1.5em }
       p.menu a {
         text-decoration: none;
@@ -47,8 +58,9 @@
       #video { margin: auto }
       #video.iframe { display: block; margin: auto; }
 
-      #out-painters { text-align: center }
+      #our-painters { text-align: center }
       .painter { display: inline-block; text-align: center }
+      .painter h3 { margin-top: 0 }
 
       h2, h3 { text-align: center }
       #masterclasses .ms-class {

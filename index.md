@@ -18,7 +18,7 @@ title: Home
   </iframe>
 </div>
 
-<div id="out-painters" style="padding-top: 2em">
+<div id="our-painters" style="padding-top: 2em">
   <h2>Наши художницы</h2>
   <div class="painter">
     <img src="img/olga.jpg" width="300px">
